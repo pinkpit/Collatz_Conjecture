@@ -1,4 +1,5 @@
 COLLATZ ALGORITHM AND CONJECTURE
+
 The Colallatz Algorithm is breifly:
 if a number is even, divide by 2
 if a number is odd, mulitply by 3 and add one
