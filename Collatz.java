@@ -2,7 +2,7 @@ package main;
 import java.util.ArrayList;
 
 public class Collatz {
-
+	
 	public static void main(String[] args) {
 		collatzInRange(1, 100);
 	}
