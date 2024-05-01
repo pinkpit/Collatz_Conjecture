@@ -3,10 +3,6 @@ import java.util.ArrayList;
 
 public class Collatz {
 	
-	public static void main(String[] args) {
-		collatzInRange(1, 100);
-	}
-	
 	public static void collatzInRange(int bottom, int top) {
 		for (int i=bottom; i<top+1; i++) {
 			System.out.println(i+": "+collatzAlgorithm(i, new ArrayList<Integer>()));
