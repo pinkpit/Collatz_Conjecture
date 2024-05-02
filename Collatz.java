@@ -11,7 +11,7 @@ public class Collatz {
 	}
 	
 	public static ArrayList<Integer> collatzAlgorithm(int numinput, ArrayList<Integer> allnums) {
-		if (numinput == 1) {
+		if (numinput == 1 && allnums.size() > 1 {
 			allnums.add(numinput);
 			return allnums;
 		}
